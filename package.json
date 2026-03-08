@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
+    "api": "ts-node src/api.ts",
     "test": "ts-node src/tests/Robot.spec.ts && ts-node src/tests/FileSystemExamples.spec.ts"
   },
   "keywords": [],
