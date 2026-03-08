@@ -1,5 +1,5 @@
 import assert from "node:assert";
-import { Robot } from "./Robot";
+import { Robot } from "../Robot";
 
 function describe(name: string, fn: () => void) {
   console.log(`\n${name}:`);

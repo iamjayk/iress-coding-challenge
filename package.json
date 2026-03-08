@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
-    "test": "ts-node src/Robot.spec.ts"
+    "test": "ts-node src/tests/Robot.spec.ts && ts-node src/tests/FileSystemExamples.spec.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^25.3.3",
+    "prettier": "3.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
